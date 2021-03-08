@@ -1,0 +1,9 @@
+{%extends 'base.html'%}
+
+{% block content %}
+<div class="container">
+    <h1>Booking System</h1>
+    <a href="{% url 'registration'%}">New Registration</a><br>
+    <a href="{% url 'login'%}">User Login</a>
+</div>
+{% endblock content %}
